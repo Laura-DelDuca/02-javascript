@@ -12,5 +12,9 @@
 (function() {
 
     // your code here
+var myVariable;
+myVariable= "Hello, world!"
+
+alert (myVariable);
 
 })();

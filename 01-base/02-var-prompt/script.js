@@ -12,5 +12,11 @@
 (function() {
 
     // your code here
+let yourName;
+yourName= "";
+
+prompt ('Entre ton prénom');
+
+alert ("bonjour", +yourName);
 
 })();
