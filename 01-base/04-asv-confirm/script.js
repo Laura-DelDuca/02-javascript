@@ -13,4 +13,14 @@
 
     // your code here
 
+do {
+    var age = prompt ("Quel âge as-tu?");
+    var genre = prompt ("Es-tu un homme ou une femme?");
+    var city = prompt ("Dans quelle ville habites-tu?");
+
+    all = confirm ("Peux-tu confirmer que tu as " +age +"ans, que tu te décris comme " +genre +" et que tu viens de " +city);
+}
+
+while (all == false);
+
 })();
