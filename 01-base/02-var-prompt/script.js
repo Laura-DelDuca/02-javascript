@@ -15,8 +15,8 @@
 let yourName;
 yourName= "";
 
-prompt ('Entre ton prénom');
+yourName= prompt ('Entre ton prénom');
 
-alert ("bonjour", +yourName);
+alert ("Bonjour, " +yourName);
 
 })();
