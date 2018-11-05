@@ -13,4 +13,19 @@
 
   // your code here
 
+let answer;
+
+answer = prompt ("Veux-tu du gâteau?");
+
+if (answer==="oui") {
+  alert ("Bien vu!");
+}
+
+else if (answer==="Oui") {
+  alert ("Bien vu!");
+}
+
+else {
+  alert ("Du gâteau, ça ne se refuse pas!");
+}
 })();
