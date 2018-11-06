@@ -15,4 +15,15 @@
 
     // your code here
 
+    var date = new Date ();
+    var hour = date.getHours();
+    var message;
+
+    if (hour <= 17.30)
+        message= "Bonjour";
+    else if (hour > 17.30)
+        message= "Bonsoir";
+
+    document.getElementById("target").innerHTML = message;
+
 })();
