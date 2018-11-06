@@ -17,6 +17,15 @@
 
         // your code here
 
+        var numberInput = document.getElementById("number").value;
+        var fact = numberInput;
+
+        for (var i = numberInput - 1; i > 1; i--) {
+            fact = fact * i;
+        }
+
+        alert(fact);
+
     });
 
 })();

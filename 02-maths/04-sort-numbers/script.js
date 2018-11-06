@@ -17,6 +17,18 @@
 
         // your code here
 
+        var numbersInput = document.getElementById("numbers").value;
+
+        // Previous method didn't work, don't understand why
+        numbersInput = [2, 4, 14, 10, 90, 23, 16];
+
+        numbersInput.sort(function (a,b){
+            return a-b});
+
+        alert(numbersInput);
+
+
+
     });
 
 })();
