@@ -24,7 +24,6 @@
         for(month = 0 ; month < 12; month++){
               
             date = new Date(year,month,13,8,0,0);
-            console.log(date);
                 if (date.getDay() === 5)
                     {
                     friday13 += mois[month]+" ";

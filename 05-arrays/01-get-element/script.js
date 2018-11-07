@@ -28,4 +28,10 @@
 
     // your code here
 
+    var fruit = fruits[fruits.length -9];
+
+    document.getElementById("run").addEventListener("click", function (){
+        alert(fruit)
+    })
+
 })();
