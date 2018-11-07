@@ -27,5 +27,10 @@
     ];
 
     // your code here
+document.getElementById("run").addEventListener("click", function(){
+    const map1 = fruits.map(function(fruit){
+        console.log(fruit);
+    }) 
+})
 
 })();
