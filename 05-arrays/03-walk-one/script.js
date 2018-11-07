@@ -28,4 +28,9 @@
 
     // your code here
 
+    
+    var arrayLength = fruits.length;
+    for (var i = 0; i < arrayLength; i++) {
+        console.log(fruits[i]);}
+
 })();
