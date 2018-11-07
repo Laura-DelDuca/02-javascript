@@ -25,5 +25,12 @@
     ];
 
     // your code here
+var first = fruits.shift();
+var last = fruits.pop();
+var newLength = fruits.unshift ("banane");
+var newLenght = fruits.push ("kiwi");
 
+document.getElementById("run").addEventListener("click", function (){
+    alert(fruits)
+})
 })();
