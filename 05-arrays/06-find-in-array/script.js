@@ -91,4 +91,26 @@
 
     // your code here
 
+
+    document.getElementById("run").addEventListener("click", function (){
+        const map1 = people.map(function(people){
+            if (people.firstname === "Jean" && people.lastname === "Dupont")
+            console.log(people.email);
+        })
+    })
+
+            // je le garde en souvenir !
+            /*indexes = people.map(function(people) {
+
+                if(people.lastname === "Dupont") {
+
+                    console.log()
+                }
+            }) */
+
+    console.log(people.findIndex(function (people){
+        return people.firstname === "Jean" && people.lastname === "Dupont";
+    }))
+
+
 })();
