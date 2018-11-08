@@ -28,4 +28,12 @@
 
     // your code here
 
+
+    var found = fruits.find(function(element) {
+        return element === "pomme";
+      });
+      
+      console.log(found);
+
+
 })();
