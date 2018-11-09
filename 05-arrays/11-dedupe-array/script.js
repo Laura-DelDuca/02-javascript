@@ -29,5 +29,28 @@
     ];
 
     // your code here
+    
+    // First Try 
+    /*function cleanArray(){
+        var fruitList;
+      for (let i = 0; i < fruits.length; i++) {
+          fruitList = fruits[i]
+          
+          console.log(fruitList)
 
+        }
+    }
+    cleanArray() */
+
+
+document.getElementById("run").addEventListener("click", function(){
+    let result = fruits.sort().reduce((accumulator, current) => {
+        const length = accumulator.length
+        if (length === 0 || accumulator[length - 1] !== current) {
+            accumulator.push(current);
+        }
+        return accumulator;
+    }, []);
+    console.log(result);
+})
 })();
