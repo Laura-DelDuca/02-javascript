@@ -91,4 +91,8 @@
 
     // your code here
 
+    document.getElementById("run").addEventListener("click", function(){
+        console.log(people.reduce((acc, people) => {return acc = acc + people.age;},0));
+    });
+
 })();
