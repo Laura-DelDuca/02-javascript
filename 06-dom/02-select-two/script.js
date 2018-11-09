@@ -13,4 +13,7 @@
 
     // your code here
 
+    var target1 = document.getElementsByClassName("target");
+    target1[0].innerHTML = "owned";
+
 })();
