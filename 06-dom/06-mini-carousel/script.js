@@ -21,4 +21,18 @@
 
     // your code here
 
+var i = 0; 
+
+document.getElementById("next").addEventListener("click", function(){
+    i++; 
+    
+    if (i >= gallery.length) {
+        i = 0;
+    }
+ 
+document.querySelector("img").src = gallery[i];
+
+
+})
+
 })();
