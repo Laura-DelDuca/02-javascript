@@ -10,7 +10,22 @@
 // You will have time to focus on it later.
 
 (function() {
+    var attempts = 0;
+    var answer = Math.floor(Math.random() * 100);
+    console.log (answer);
+    var myPrompt = prompt("Enter a number between 1 and 100");
 
-    // your code here
+    while(true) {
+        attemps++;
+
+        if(myPrompt < answer)
+            alert ("Your number is below mine !");
+        else if (myPrompt > answer)
+            alert ("Your number is above mine");
+        else 
+            alert ("Well done");
+    }
 
 })();
+
+
