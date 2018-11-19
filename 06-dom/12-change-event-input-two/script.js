@@ -14,7 +14,7 @@
 // Si l'utilisateur rentre un MDP plus grand que 8 et contient + que 2 chiffres
 // retourne OK
 // Operate while on "password" to check out if there
-//are at least 2 numbers amongst the strings ???
+//are at least 2 numbers amongst the strings ??? 
 
 (function() {
 
@@ -23,12 +23,12 @@
     document.getElementById("pass-one").addEventListener("input", function() {
         
         var password = document.getElementById("pass-one").value; 
-        var PWLenght = password.length;
+        var PWLength = password.length;
 
-    if (password [PWLenght - 1] >= "0" && password [PWLenght - 1] <= "9")
+    if (password [PWLength - 1] >= "0" && password [PWLength - 1] <= "9")
     numbers++;
 
-    if (PWLenght >= 8 && numbers >= 2)
+    if (PWLength >= 8 && numbers >= 2)
     document.getElementById("validity").innerHTML = "OK";
 
     else 
