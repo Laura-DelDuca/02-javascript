@@ -1,1 +1,1 @@
-# 02-javascript
+Introduction to JS @ BeCode / Exercises 
