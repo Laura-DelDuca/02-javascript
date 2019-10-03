@@ -3,18 +3,18 @@
     var date = new Date();
     var month;
     var mois = new Array(
-      "janvier",
-      "fevrier",
-      "mars",
-      "avril",
-      "mai",
-      "juin",
-      "juillet",
-      "aout",
-      "septembre",
-      "octobre",
-      "novembre",
-      "decembre"
+      "Janvier",
+      "Fevrier",
+      "Mars",
+      "Avril",
+      "Mai",
+      "Juin",
+      "Juillet",
+      "Aout",
+      "Septembre",
+      "Octobre",
+      "Novembre",
+      "Decembre"
     );
     var friday13 = "";
     var year = document.getElementById("year").value;
