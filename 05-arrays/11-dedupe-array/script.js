@@ -16,6 +16,8 @@
     "cerise"
   ];
 
+  console.log(fruits);
+
   document.getElementById("run").addEventListener("click", function() {
     let result = fruits.sort().reduce((accumulator, current) => {
       const length = accumulator.length;
