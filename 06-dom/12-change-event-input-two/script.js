@@ -10,6 +10,6 @@
 
     if (PWLength >= 8 && numbers >= 2)
       document.getElementById("validity").innerHTML = "OK";
-    else document.getElementById("validity").innerHTML = "Pas OK";
+    else document.getElementById("validity").innerHTML = "Not OK";
   });
 })();

@@ -1,5 +1,4 @@
 (function() {
-  // Yet to check...
   document.getElementById("run").addEventListener("click", function() {
     if (
       document.getElementById("pass-one").value !=
